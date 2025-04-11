@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SWAStore Database Schema",
+  "type": "object",
+  "properties": {
+    "Items": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "price": { "type": "number" }
+      },
+      "required": ["id", "title", "price"]
+    }
+  }
+}
