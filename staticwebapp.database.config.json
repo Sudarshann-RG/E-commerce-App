@@ -22,7 +22,6 @@
         "rest": true,
         "graphql": true
       }
-      // Add more entities for other containers if needed
     }
   }
 }
