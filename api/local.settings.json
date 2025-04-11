@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "COSMOSDB_KEY": "FxeFsYsBBvwAmksLTk1xMkiSozL0bwuOuLJEZPJHbiepHlh0DWc4wOdoJ5VTgbc7GWIMMJbykb02ACDb4lzbMw==",
+    "COSMOSDB_ENDPOINT": "https://my-sample-db-instance.documents.azure.com:443/"
+  }
+}
