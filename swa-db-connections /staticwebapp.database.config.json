@@ -1,0 +1,21 @@
+{
+  "dataApiBuilder": {
+    "dataSources": {
+      "default": {
+        "databaseType": "azure_cosmos_nosql",
+        "connectionString": "AccountEndpoint={https://my-sample-db-instance.documents.azure.com:443/};AccountKey={FxeFsYsBBvwAmksLTk1xMkiSozL0bwuOuLJEZPJHbiepHlh0DWc4wOdoJ5VTgbc7GWIMMJbykb02ACDb4lzbMw==};Database={swa-ecommerce-app};",
+        "options": {
+          "nosqlDatabaseType": "document"
+        }
+      }
+    },
+    "entities": {
+      "Item": {
+        "source": "Items",
+        "source.container": "Items",
+        "rest": true,
+        "graphql": true
+      },
+    }
+  }
+}
