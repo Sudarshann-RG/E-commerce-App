@@ -10,7 +10,7 @@
       }
     },
     "entities": {
-      "Item": {
+      "Items": {
         "source": "Items",
         "source.container": "Items",
         "rest": true,
